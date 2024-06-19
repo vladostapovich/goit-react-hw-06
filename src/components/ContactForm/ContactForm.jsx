@@ -31,6 +31,7 @@ const ContactForm = () => {
         name: values.name,
         number: values.number,
       };
+
       if (
         contacts.some(
           (contact) =>
